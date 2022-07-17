@@ -3,4 +3,10 @@ friends.each do |friend|
   if friend >= 30
     puts friend
   end
+end
+
+friends.each do |friend|
+  if friend <= 60
+    puts friend
+  end
 end 
